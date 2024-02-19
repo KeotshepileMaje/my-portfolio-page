@@ -3,6 +3,8 @@ import React from 'react';
 import Footer from './components/footer/Footer';
 import NavBar from './components/nav/NavBar';
 import Contacts from './components/contacts/Contact';
+import About from './components/about/About';
+import Hero from './components/hero/Hero';
 
 function App() {
     return (
@@ -20,6 +22,8 @@ function App() {
                 md:px-10
                 px-4
             ">
+                <Hero/>
+                <About />
                 <Contacts />
             </main>
             <Footer />
