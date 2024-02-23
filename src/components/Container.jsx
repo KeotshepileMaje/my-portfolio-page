@@ -2,11 +2,11 @@ const Container = ({ children }) => {
     return (
         <div
             className="
-            max-w-[1920px]
+            px-10
+            max-w-6xl
             mx-auto
             xl:px-20
             md:px-10
-            px-4
         ">
             {children}
         </div>

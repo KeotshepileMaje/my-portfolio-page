@@ -13,7 +13,11 @@ const NavBar = () => {
         shadow-sm
         ">
             <div className="py-4 border-b-[1px]">
-                <Container>
+                <div className="max-w-[1920px]
+            mx-auto
+            xl:px-20
+            md:px-10
+            px-4">
                     <div
                         className="
                     flex
@@ -49,7 +53,7 @@ const NavBar = () => {
                             <Button label="Let's talk" />
                         </div>
                     </div>
-                </Container>
+                </div>
             </div>
         </div>
     );

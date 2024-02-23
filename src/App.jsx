@@ -5,6 +5,7 @@ import NavBar from './components/nav/NavBar';
 import Contacts from './components/contacts/Contact';
 import About from './components/about/About';
 import Hero from './components/hero/Hero';
+import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
     return (
@@ -17,13 +18,14 @@ function App() {
             <NavBar />
             <main
                 className="
-                flex-grow 
-                xl:px-20
-                md:px-10
-                px-4
+                flex-grow
             ">
-                <Hero/>
+                <div className="bg-gray-200">
+                    <Hero />
+                </div>
+
                 <About />
+                <Portfolio />
                 <Contacts />
             </main>
             <Footer />
