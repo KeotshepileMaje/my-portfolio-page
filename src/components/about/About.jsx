@@ -5,7 +5,7 @@ import Container from "../Container";
 const About = () => {
     return (
         <Container>
-            <div className="py-10 h-auto" id="about">
+            <div className="py-10 h-auto bg-blue-200" id="about">
                 <div
                     className="
             flex 

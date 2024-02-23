@@ -25,7 +25,7 @@ const ContactForm = () => {
 
     return (
         <div>
-            <div className='p-4'>
+            <div className='pb-4'>
                 <Heading title="Send a quick message" center />
             </div>
             
